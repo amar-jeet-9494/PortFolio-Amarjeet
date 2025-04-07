@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" scroll-behavior="smooth">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -40,8 +40,8 @@
   </section>
   
 
-  <main class="p-8 mt-52">
-    <section id="about" class="pt-50">
+  <main class="p-8">
+    <section id="about" class="">
       <h2 class="text-2xl font-bold text-blue-500 text-center padding">About Me</h2>
       <p class="text-gray-700 dark:text-gray-300 mt-12">Hi, I'm Amarjeet Pandey. Welcome to my portfolio. 
         I am currently learning FullStack Development from Internshala.
@@ -99,39 +99,71 @@
       </div>
   </section>
 
-    <section id="certifications" class="mb-12">
-      <h2 class="text-2xl font-bold text-center text-blue-500 padding">Certifications</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div class="border rounded-lg shadow-md p-4">
-          <h3 class="text-lg font-semibold">FullStack Development</h3>
-          <p class="text-gray-600">Completed on: 05th july 2024</p>
-          <p class="text-gray-600">Issued by: HashedBit Innovations</p>
-          <a href="https://drive.google.com/file/d/1nPZ8BiRDsVbv3FCKnq_9baWZa1wzTHl6/view?usp=sharing" target="_blank" 
-              class="mt-6 inline-block bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600">Open Certificate</a>
+  <section id="certifications" class="mb-12">
+    <h2 class="text-2xl font-bold text-center text-blue-500 mb-8 padding">Certifications</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <!-- Certification Card 1 -->
+      <div class="relative group border rounded-lg shadow-md overflow-hidden p-4 cursor-pointer transform transition duration-300 hover:-translate-y-2">
+        <div class="absolute inset-0 bg-gray-800 bg-opacity-80 text-white flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition duration-300">
+          <h3 class="text-lg font-bold">FullStack Development</h3>
+          <p class="text-sm mt-2">Completed on: 05th July 2024</p>
+          <p class="text-sm">Issued by: HashedBit Innovations</p>
+          <a href="https://drive.google.com/file/d/1nPZ8BiRDsVbv3FCKnq_9baWZa1wzTHl6/view?usp=sharing" target="_blank"
+            class="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition">
+            Open Certificate
+          </a>
         </div>
-        <div class="border rounded-lg shadow-md p-4">
-          <h3 class="text-lg font-semibold">JavaScript Internship</h3>
-          <p class="text-gray-600">Completed on: 30th July 2023</p>
-          <p class="text-gray-600">Issued by: Eimple Labs</p>
-          <a href="https://drive.google.com/file/d/12tEr3iJY3YLG-BhlsUVJYNjZL_mq01ZQ/view?usp=sharing" target="_blank" 
-          class="mt-6 inline-block bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600">Open Certificate</a>
-        </div>
-        <div class="border rounded-lg shadow-md p-4">
-          <h3 class="text-lg font-semibold">Php with MySQL</h3>
-          <p class="text-gray-600">Completed on: 2nd Sept 2024</p>
-          <p class="text-gray-600">Issued by: Udemy</p>
-          <a href="https://drive.google.com/file/d/1mbog86KRfw0mn2lmfZZvGmSAXRLkwMh3/view?usp=sharing" target="_blank" 
-          class="mt-6 inline-block bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600">Open Certificate</a>
-        </div>
-        <div class="border rounded-lg shadow-md p-4">
-          <h3 class="text-lg font-semibold">Android App Development</h3>
-          <p class="text-gray-600">Completed on: 29th Mar 2024</p>
-          <p class="text-gray-600">Issued by: Udemy</p>
-          <a href="https://drive.google.com/file/d/1xpVS7UWcT2aP9H4MMFNUF02ewAJXrmCx/view?usp=sharing" target="_blank" 
-          class="mt-6 inline-block bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600">Open Certificate</a>
-        </div>
+        <img src="./media/fullstack.jpg" alt="FullStack Development" class="w-full h-48 object-cover rounded-lg">
+        <h3 class="mt-4 text-lg font-semibold text-gray-800">FullStack Development</h3>
       </div>
-    </section>
+  
+      <!-- Certification Card 2 -->
+      <div class="relative group border rounded-lg shadow-md overflow-hidden p-4 cursor-pointer transform transition duration-300 hover:-translate-y-2">
+        <div class="absolute inset-0 bg-gray-800 bg-opacity-80 text-white flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition duration-300">
+          <h3 class="text-lg font-bold">JavaScript Internship</h3>
+          <p class="text-sm mt-2">Completed on: 30th July 2023</p>
+          <p class="text-sm">Issued by: Eimple Labs</p>
+          <a href="https://drive.google.com/file/d/12tEr3iJY3YLG-BhlsUVJYNjZL_mq01ZQ/view?usp=sharing" target="_blank"
+            class="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition">
+            Open Certificate
+          </a>
+        </div>
+        <img src="./media/js.jpg" alt="JavaScript Internship" class="w-full h-48 object-cover rounded-lg">
+        <h3 class="mt-4 text-lg font-semibold text-gray-800">JavaScript Internship</h3>
+      </div>
+  
+      <!-- Certification Card 3 -->
+      <div class="relative group border rounded-lg shadow-md overflow-hidden p-4 cursor-pointer transform transition duration-300 hover:-translate-y-2">
+        <div class="absolute inset-0 bg-gray-800 bg-opacity-80 text-white flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition duration-300">
+          <h3 class="text-lg font-bold">PHP with MySQL</h3>
+          <p class="text-sm mt-2">Completed on: 2nd Sept 2024</p>
+          <p class="text-sm">Issued by: Udemy</p>
+          <a href="https://drive.google.com/file/d/1mbog86KRfw0mn2lmfZZvGmSAXRLkwMh3/view?usp=sharing" target="_blank"
+            class="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition">
+            Open Certificate
+          </a>
+        </div>
+        <img src="./media/PHP-MySQl.jpg" alt="PHP with MySQL" class="w-full h-48 object-cover rounded-lg">
+        <h3 class="mt-4 text-lg font-semibold text-gray-800">PHP with MySQL</h3>
+      </div>
+  
+      <!-- Certification Card 4 -->
+      <div class="relative group border rounded-lg shadow-md overflow-hidden p-4 cursor-pointer transform transition duration-300 hover:-translate-y-2">
+        <div class="absolute inset-0 bg-gray-800 bg-opacity-80 text-white flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition duration-300">
+          <h3 class="text-lg font-bold">Android App Development</h3>
+          <p class="text-sm mt-2">Completed on: 29th Mar 2024</p>
+          <p class="text-sm">Issued by: Udemy</p>
+          <a href="https://drive.google.com/file/d/1xpVS7UWcT2aP9H4MMFNUF02ewAJXrmCx/view?usp=sharing" target="_blank"
+            class="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition">
+            Open Certificate
+          </a>
+        </div>
+        <img src="./media/android.jpg" alt="Android App Development" class="w-full h-48 object-cover rounded-lg">
+        <h3 class="mt-4 text-lg font-semibold text-gray-800">Android App Development</h3>
+      </div>
+    </div>
+  </section>
+  
     
     <section id="projects" class="mb-12">
       <h2 class="text-2xl font-bold text-center text-blue-500 padding">Projects</h2>
