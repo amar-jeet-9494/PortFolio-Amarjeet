@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .bounce {
     display: inline-block;
     animation: bounce 1.5s ease infinite;
@@ -44,4 +48,18 @@
     font-size: 1.125rem; /* Tailwind text-lg */
     font-weight: 700; /* Tailwind font-bold */
     color: #4b5563; /* Tailwind text-gray-700 */
-}  
+}
+
+
+.dynamic-text {
+   font-weight: bold;
+   color: #3498db;
+   /* display: inline-block;
+   position: relative;
+   animation: slide 2s ease-in-out infinite; */
+}
+
+
+.padding{
+  padding-top: 5rem;
+}
